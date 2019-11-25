@@ -14,8 +14,7 @@ function App() {
     <div className="App container">
   <Router>
       <div>
-        <nav className="nav">
-          <ul className="nav">
+          <ul className="nav " id="navContainer">
             <li className="nav-link active"><a>
               <Link to="/">Home</Link>
             </a>
@@ -25,7 +24,6 @@ function App() {
             </a>
             </li>
           </ul>
-        </nav>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

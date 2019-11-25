@@ -1,2 +1,31 @@
 .App {
+    #addUserForm{
+        padding: 20px 30px;
+        color: #099 ;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #navContainer{
+        padding: 20px 30px;
+        background: #f2f2f2;
+    }
+    #navContainer li {
+        height: 100%;
+        color:#099;
+        transition: 0.3s linear all;
+    }
+    #navContainer li a{
+        text-decoration:none;
+        color: #099
+    }
+
+    #navContainer li:hover{
+        outline: none;
+        color: #fff;
+        background: #099;
+        a{
+            color:#fff;
+        }
+    }
+
 }

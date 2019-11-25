@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Input from '../components/Input'
 
 class AddUser extends Component{
     constructor(props){
