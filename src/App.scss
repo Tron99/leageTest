@@ -4,14 +4,22 @@
         color: #099 ;
         max-width: 600px;
         margin: 0 auto;
+        #submitUser{
+            background: #099;
+            border:2px solid #fff;
+            &:hover{
+                background: #f2f2f2;
+                color: #f90;
+            }
+        }
     }
     #navContainer{
-        padding: 20px 30px;
         background: #f2f2f2;
     }
     #navContainer li {
         height: 100%;
         color:#099;
+        padding: 20px 30px;
         transition: 0.3s linear all;
     }
     #navContainer li a{

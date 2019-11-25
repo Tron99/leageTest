@@ -17,6 +17,7 @@ class Home extends Component{
                 <Input type={"text"} label={"Phone Number "} id={"phoneNumber"} palceholder={"011 098 2728"}/>
                 <Input type={"date"} label={"Start Date "} id={"startDate"}/>
                 <Input type={"date"} label={"End Date "} id={"endDate"}/>
+                <button type="submit" class="btn btn-primary" id="submitUser">Submit</button>
             </form>
             </div>
         )
